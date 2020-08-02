@@ -1,0 +1,136 @@
+body{
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  background: url("fondo5.png") no-repeat; /*Imagen de fondo*/
+  background-size: 100% 100%; /*Tamaño de la imagen de fondo*/
+}
+
+section, header, footer{
+  margin-left: 200px; /*Margen hacia izquierda*/
+  margin-right: 200px; /*Margen hacia la derecha*/
+  margin-top: 50px; /*Margen entre secciones*/
+}
+
+footer{ 
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+/* Imagen de Perfil */
+.imgperfil #imgperfil{
+  float: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+p.imgperfil{
+  text-align: center;
+}
+/*Cierre img de perfil*/
+
+/*imagenes redes sociales*/
+footer ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+footer li{
+  display: inline;
+  text-align: center;
+  padding: 1px 4px 1px 4px; /*Se genera espacio entre los enlaces*/
+  margin: 0 5px 0 0; /*Se indican margenes entre los elementos*/
+}
+
+#linkedin{
+  float: none;
+  width: 80px;
+  height: 50px;
+}
+
+#github{
+  float: none;
+  width: 55px;
+  height: 50px;
+}
+
+#whatsapp{
+  float: none;
+  width: 55px;
+  height: 50px;
+}
+
+#gmail{
+  float: none;
+  width: 50px;
+  height: 50px;
+}
+
+/*Cierre de Footer*/
+
+.title_head{
+  text-align: center;
+  font-size: x-large;
+  letter-spacing: 1px; /* Espacio entre letras */
+}
+
+.title{
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+} 
+
+.description{
+  text-align: center;
+  text-indent: 30px; /*Sangría en primera linea del parrafo*/
+}
+
+/* Barra de navegación */
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li{
+  display: inline; /*Se consiguen que los elementos queden uno detras de otro*/
+  text-align: center; 
+  margin: 0 10px 0 0; /*Se indican margenes entre los elementos*/
+}
+
+nav li a{
+  padding: 2px 7px 2px 7px; /*Se genera espacio entre los enlaces*/
+  color: #000; /*Color*/
+  border: 1px solid #ccc;/*Color de borde*/
+  text-decoration: none;/*Se le quita el subrayado a los bordes*/
+}
+
+nav li a:hover{
+  background-color: darkblue;
+  color: #ffffff;
+}
+/* Cierre de barra de nav */
+.table{
+  width: 100%; /*Ancho de la tabla*/
+  border: 1px solid #000; /*Borde y color*/
+}
+
+th, td{
+  width: 25%; /*Ancho de las columnas*/
+  text-align: center; /*Alineación del texto*/
+  border: 1px solid #000; /*Borde y color*/
+  padding: 0.3em; /*Se añade relleno (espacions en blanco entre cada celda)*/
+}
+
+caption {
+  padding: 0.3em; /*Trabaja para padding en las tablas*/
+}
+
+.list{
+  list-style-type:square;
+  list-style-position: inside;
+}
+
